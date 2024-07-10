@@ -6,6 +6,14 @@ navigation:
   title: 'Home'
   icon: '🏡'
 ---
+
+::hero
+Default slot text
+
+#description
+This will be rendered inside the `description` slot.
+::
+
 # Nuxt Content
 
 This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
