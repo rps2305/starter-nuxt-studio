@@ -4,7 +4,7 @@ This page corresponds to the `/` route of your website. You can delete it or cre
 
 Try to navigate to [/about](/about). These 2 pages are rendered by the `pages/[...slug].vue` component.
 
-![Time for Mojito?](/mojito-time.webp)
+![Time for Mojito?](/mojito-time.webp){height="auto" width="100%"}
 
 ---
 
