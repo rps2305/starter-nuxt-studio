@@ -228,7 +228,16 @@
         </div>
       </div>
     </main>
+    <div><!-- Basic use -->
+<SocialShare network="facebook" />
 
+<SocialShare network="twitter" />
+
+<SocialShare network="linkedin" />
+
+<!-- Customization with props -->
+<SocialShare network="facebook" :styled="true" :label="false" />
+</div>
     <!-- Footer -->
     <footer class="mx-auto mt-40 max-w-7xl overflow-hidden px-6 pb-20 sm:mt-64 sm:pb-24 lg:px-8">
       <nav class="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
