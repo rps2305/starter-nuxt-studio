@@ -213,7 +213,7 @@
                   <circle cx="1" cy="1" r="1" />
                 </svg>
                 <div class="flex gap-x-2.5">
-                  <NuxtImg   format="webp" :src="post.author.imageUrl" alt="" class="h-6 w-6 flex-none rounded-full bg-white/10" />
+                  <NuxtImg  loading="lazy" format="webp" :src="post.author.imageUrl" alt="" class="h-6 w-6 flex-none rounded-full bg-white/10" />
                   {{ post.author.name }}
                 </div>
               </div>
