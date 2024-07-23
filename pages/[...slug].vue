@@ -229,14 +229,16 @@
       </div>
     </main>
     <div><!-- Basic use -->
-<SocialShare network="facebook" />
+      <span class="isolate inline-flex rounded-md shadow-sm">
+<SocialShare network="facebook" :styled="true" />
 
-<SocialShare network="twitter" />
+<SocialShare network="twitter"  :styled="true" />
 
-<SocialShare network="linkedin" />
+<SocialShare network="linkedin" :styled="true" />
 
 <!-- Customization with props -->
 <SocialShare network="facebook" :styled="true" :label="false" />
+      </span>
 </div>
     <!-- Footer -->
     <footer class="mx-auto mt-40 max-w-7xl overflow-hidden px-6 pb-20 sm:mt-64 sm:pb-24 lg:px-8">
@@ -251,7 +253,7 @@
           <component :is="item.icon" class="h-6 w-6" aria-hidden="true" />
         </a>
       </div>
-      <p class="mt-10 text-center text-xs leading-5 text-gray-500">&copy; 2020 Your Company, Inc. All rights reserved.</p>
+      <p class="mt-10 text-center text-xs leading-5 text-gray-500">&copy; 2024 Your Company, Inc. All rights reserved.</p>
     </footer>
   </div>
 </template>
